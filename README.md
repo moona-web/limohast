@@ -12,7 +12,7 @@
 
 - Created - 2023
 
-- Technologies Used - Html , css 
+- Technologies Used - Html , css ,sass
 
 - Hooks Used : useState 
 
