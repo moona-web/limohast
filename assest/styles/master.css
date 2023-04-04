@@ -1,0 +1,1005 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+  font-family: "Changa", sans-serif;
+}
+
+main {
+  width: 100%;
+}
+main > .menu {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+main > .menu > div:nth-of-type(1) {
+  height: 100%;
+  width: 20%;
+}
+main > .menu > div:nth-of-type(1) > figure {
+  height: 100%;
+  width: 60%;
+}
+main > .menu > div:nth-of-type(1) > figure > img {
+  width: 100%;
+  height: 100%;
+  margin: 0 90px;
+}
+main > .menu > div:nth-of-type(2) {
+  height: 100%;
+  width: 60%;
+}
+main > .menu > div:nth-of-type(2) > ul {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+main > .menu > div:nth-of-type(2) > ul li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+main > .menu > div:nth-of-type(2) > ul li > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.596);
+  font-weight: bold;
+}
+main > .menu > div:nth-of-type(3) {
+  border-radius: 10px;
+  height: 100%;
+  width: 20%;
+}
+main > .menu > div:nth-of-type(3) > div {
+  width: 60%;
+  height: 50%;
+  margin: 20px 30px;
+  border-radius: 10px;
+}
+main > .menu > div:nth-of-type(3) > div > input {
+  height: 90%;
+  width: 70%;
+  margin: 3px;
+  border: none;
+  outline: none;
+}
+main > .menu > div:nth-of-type(3) > div > input::-moz-placeholder {
+  font-size: 20px;
+  height: 100%;
+}
+main > .menu > div:nth-of-type(3) > div > input::placeholder {
+  font-size: 20px;
+  height: 100%;
+}
+main > .menu > div:nth-of-type(3) > div > i {
+  font-size: 20px;
+}
+main > .text {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  background-color: rgba(255, 192, 203, 0.452);
+}
+main > .text > div:nth-of-type(1) {
+  width: 30%;
+  height: 100%;
+}
+main > .text > div:nth-of-type(1) > figure {
+  width: 70%;
+  height: 70%;
+  border-radius: 20px;
+  margin: 50px 120px;
+}
+main > .text > div:nth-of-type(1) > figure > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 20px;
+}
+main > .text > div:nth-of-type(2) {
+  width: 70%;
+  height: 100%;
+}
+main > .text > div:nth-of-type(2) > div {
+  width: 50%;
+  margin: 30px;
+}
+main > .text > div:nth-of-type(2) > div > span:nth-of-type(1),
+main > .text > div:nth-of-type(2) > div > span:nth-of-type(2) {
+  border-radius: 50px;
+  font-size: 15px;
+  padding: 5px 30px;
+  font-weight: bold;
+}
+main > .text > div:nth-of-type(2) > div > span:nth-of-type(1) {
+  background-color: rgb(233, 231, 107);
+}
+main > .text > div:nth-of-type(2) > div > span:nth-of-type(2) {
+  background-color: rgb(23, 212, 149);
+}
+main > .text > div:nth-of-type(2) > h2 {
+  padding: 0 30px;
+}
+main > .text > div:nth-of-type(2) > p {
+  line-height: 30px;
+  padding: 0 30px;
+  font-size: 20px;
+}
+main > .text > div:nth-of-type(2) > p::after {
+  content: "[...]";
+}
+main > .text > div:nth-of-type(2) > article {
+  width: 60%;
+  height: 50px;
+  margin: 20px 0;
+}
+main > .text > div:nth-of-type(2) > article > i {
+  margin: 0 30px;
+}
+main > .para {
+  width: 100%;
+  height: 3300px;
+  display: flex;
+  position: relative;
+  margin-top: 100px;
+}
+main > .para > div:nth-of-type(1) {
+  width: 20%;
+  height: 150px;
+  position: fixed;
+}
+main > .para > div:nth-of-type(1) > div:nth-of-type(1) {
+  width: 100%;
+  font-size: 30px;
+  padding-right: 270px;
+}
+main > .para > div:nth-of-type(1) > div:nth-of-type(2) {
+  font-size: 30px;
+  width: 100%;
+  padding-right: 270px;
+}
+main > .para > div:nth-of-type(1) > div:nth-of-type(3) {
+  font-size: 30px;
+  width: 100%;
+  padding-right: 270px;
+}
+main > .para > div:nth-of-type(2) {
+  width: 50%;
+  margin-right: 300px;
+}
+main > .para > div:nth-of-type(2) > p {
+  line-height: 30px;
+  margin-right: 25px;
+}
+main > .para > div:nth-of-type(2) > p > strong {
+  font-weight: bold;
+  font-size: 20px;
+}
+main > .para > div:nth-of-type(2) > p:nth-of-type(1) {
+  margin-top: 20px;
+}
+main > .para > div:nth-of-type(2) > h2 {
+  margin-right: 25px;
+  margin-top: 10px;
+}
+main > .para > div:nth-of-type(2) > figure {
+  width: 100%;
+  margin: 50px 0;
+}
+main > .para > div:nth-of-type(2) > figure img {
+  width: 100%;
+  background-size: cover;
+}
+main > .para > div:nth-of-type(2) > div {
+  width: 90%;
+  height: 150px;
+  display: flex;
+  margin-right: 20px;
+  margin-top: 50px;
+  background-color: rgba(128, 128, 128, 0.192);
+  border-radius: 10px;
+}
+main > .para > div:nth-of-type(2) > div > div:nth-of-type(1) {
+  width: 30%;
+  height: 70%;
+  border-radius: 50%;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+main > .para > div:nth-of-type(2) > div > div:nth-of-type(1) > figure {
+  width: 100%;
+  height: 100%;
+}
+main > .para > div:nth-of-type(2) > div > div:nth-of-type(1) > figure > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 50%;
+}
+main > .para > div:nth-of-type(2) > div > div:nth-of-type(2) {
+  width: 70%;
+  height: 80%;
+  padding: 55px 50px;
+  font-size: 30px;
+}
+main > .para > div:nth-of-type(2) > aside {
+  width: 80%;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 100px auto;
+}
+main > .para > div:nth-of-type(2) > aside > article {
+  display: flex;
+  width: 100%;
+  height: 70%;
+  margin-top: 10px;
+}
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(5) {
+  background-color: rgb(233, 194, 233);
+  border: 2px solid rgb(252, 161, 176);
+  border-radius: 10px;
+}
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(4) {
+  background-color: rgb(252, 252, 139);
+  border: 2px solid yellow;
+  border-radius: 10px;
+}
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(3) {
+  background-color: rgb(156, 243, 207);
+  border: 2px solid rgb(36, 189, 138);
+  border-radius: 10px;
+}
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(2) {
+  background-color: rgb(180, 205, 243);
+  border: 2px solid rgb(43, 151, 252);
+  border-radius: 10px;
+}
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(1) {
+  background-color: rgba(188, 129, 196, 0.548);
+  border: 2px solid rgb(184, 37, 171);
+  border-radius: 10px;
+}
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(1),
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(2),
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(3),
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(4),
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(5) {
+  width: 15%;
+  height: 100%;
+  margin: 0 10px;
+}
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(1) > figure,
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(2) > figure,
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(3) > figure,
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(4) > figure,
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(5) > figure {
+  width: 100%;
+  height: 100%;
+}
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(1) > figure > img,
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(2) > figure > img,
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(3) > figure > img,
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(4) > figure > img,
+main > .para > div:nth-of-type(2) > aside > article > div:nth-of-type(5) > figure > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main > .para > div:nth-of-type(2) > aside > div {
+  width: 60%;
+  height: 30px;
+  margin-top: -15px;
+  margin-right: 90px;
+  background-color: white;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px 4px gray;
+}
+main > .para > div:nth-of-type(3) {
+  width: 30%;
+  height: 100%;
+}
+main > .para > div:nth-of-type(3) > div {
+  height: 150px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: -50px;
+  margin-right: 50px;
+  position: sticky;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(1) {
+  width: 70%;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: -10px;
+  box-shadow: 1px 2px 3px 4px gray;
+  background-color: white;
+  padding: 5px;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(2) {
+  width: 80%;
+  height: 80%;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(2) > ol {
+  width: 100%;
+  height: 100%;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(2) > ol > li {
+  margin: 3px;
+  transition: 0.4s;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(2) > ol > li > a {
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  color: rgba(0, 0, 0, 0.815);
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(2) > ol > li:hover {
+  background-color: rgba(128, 128, 128, 0.301);
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(3) {
+  width: 100%;
+  height: 330px;
+  border: 2px solid black;
+  margin: 400px 0;
+  border-radius: 10px;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(1) {
+  width: 80%;
+  height: 30px;
+  border: 2px solid black;
+  margin-top: -15px;
+  margin-right: 23px;
+  background-color: white;
+  text-align: center;
+  padding: 3px 0;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(3) > form {
+  width: 95%;
+  height: 70%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(3) > form > label:nth-of-type(1) {
+  padding-top: 10px;
+  padding-right: 10px;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(2) {
+  width: 95%;
+  height: 60px;
+  border: 2px solid rgba(128, 128, 128, 0.5);
+  border-radius: 10px;
+  margin-right: 10px;
+  display: flex;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) {
+  width: 70%;
+  height: 100%;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > input {
+  width: 100%;
+  height: 100%;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > input::-moz-placeholder {
+  font-size: 17px;
+  padding: 0 10px;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > input::placeholder {
+  font-size: 17px;
+  padding: 0 10px;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) {
+  width: 30%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  padding: 15px 15px;
+}
+main > .para > div:nth-of-type(3) > div > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2):hover {
+  background-color: orange;
+}
+main > .picture {
+  width: 100%;
+  height: 700px;
+  background-color: rgba(241, 196, 241, 0.521);
+}
+main > .picture > h2 {
+  padding-top: 50px;
+  padding-right: 100px;
+}
+main > .picture > div {
+  width: 80%;
+  height: 80%;
+  margin: 10px auto;
+  display: flex;
+  border-radius: 10px;
+}
+main > .picture > div > div:nth-of-type(1) {
+  width: 30%;
+  height: 100%;
+  border: 1px solid rgb(247, 197, 177);
+  margin-left: 50px;
+  background-color: white;
+  border-radius: 10px;
+}
+main > .picture > div > div:nth-of-type(1) > figure {
+  width: 90%;
+  height: 50%;
+  border: 2px solid rgba(72, 69, 253, 0.253);
+  margin: 10px 15px;
+  border-radius: 10px;
+}
+main > .picture > div > div:nth-of-type(1) > figure > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 10px;
+}
+main > .picture > div > div:nth-of-type(1) h3 {
+  margin: 10px 15px;
+}
+main > .picture > div > div:nth-of-type(1) h3:hover {
+  color: orange;
+}
+main > .picture > div > div:nth-of-type(1) p {
+  margin: 10px 15px;
+}
+main > .picture > div > div:nth-of-type(1) p:hover {
+  color: orange;
+}
+main > .picture > div > div:nth-of-type(1) > article {
+  width: 100%;
+  height: 20px;
+  margin-top: 20px;
+}
+main > .picture > div > div:nth-of-type(1) > article > span {
+  padding: 0 10px;
+}
+main > .picture > div > div:nth-of-type(1) > ul {
+  width: 80%;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+main > .picture > div > div:nth-of-type(1) > ul:hover > li {
+  background-color: orange;
+}
+main > .picture > div > div:nth-of-type(1) > ul > li {
+  border: 1px solid rgba(128, 128, 128, 0.295);
+  width: 40%;
+  height: 90%;
+  border-radius: 50px;
+  background-color: rgba(128, 128, 128, 0.075);
+}
+main > .picture > div > div:nth-of-type(1) > ul > li:hover {
+  background-color: orange;
+}
+main > .picture > div > div:nth-of-type(1) > ul > li > a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  color: black;
+  padding: 8px 5px;
+  text-decoration: none;
+}
+main > .picture > div > div:nth-of-type(2) {
+  width: 30%;
+  height: 100%;
+  border: 1px solid rgb(177, 215, 247);
+  border-radius: 10px;
+  margin-left: 30px;
+  background-color: white;
+}
+main > .picture > div > div:nth-of-type(2) > figure {
+  width: 90%;
+  height: 50%;
+  border: 2px solid rgba(72, 69, 253, 0.253);
+  margin: 10px 15px;
+  border-radius: 10px;
+}
+main > .picture > div > div:nth-of-type(2) > figure > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 10px;
+}
+main > .picture > div > div:nth-of-type(2) h3 {
+  margin: 10px 15px;
+}
+main > .picture > div > div:nth-of-type(2) h3:hover {
+  color: orange;
+}
+main > .picture > div > div:nth-of-type(2) p {
+  margin: 10px 15px;
+}
+main > .picture > div > div:nth-of-type(2) p:hover {
+  color: orange;
+}
+main > .picture > div > div:nth-of-type(2) > article {
+  width: 100%;
+  height: 20px;
+  margin-top: 20px;
+}
+main > .picture > div > div:nth-of-type(2) > article > span {
+  padding: 0 10px;
+}
+main > .picture > div > div:nth-of-type(2) > ul {
+  width: 80%;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+main > .picture > div > div:nth-of-type(2) > ul:hover > li {
+  background-color: orange;
+}
+main > .picture > div > div:nth-of-type(2) > ul > li {
+  border: 1px solid rgba(128, 128, 128, 0.295);
+  width: 40%;
+  height: 90%;
+  border-radius: 50px;
+  background-color: rgba(128, 128, 128, 0.075);
+}
+main > .picture > div > div:nth-of-type(2) > ul > li:hover {
+  background-color: orange;
+}
+main > .picture > div > div:nth-of-type(2) > ul > li > a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  color: black;
+  padding: 8px 5px;
+  text-decoration: none;
+}
+main > .picture > div > div:nth-of-type(3) {
+  width: 30%;
+  height: 100%;
+  border: 1px solid rgb(177, 215, 247);
+  border-radius: 10px;
+  margin-left: 30px;
+  background-color: white;
+}
+main > .picture > div > div:nth-of-type(3) > figure {
+  width: 90%;
+  height: 50%;
+  border: 2px solid rgba(72, 69, 253, 0.253);
+  margin: 10px 15px;
+  border-radius: 10px;
+}
+main > .picture > div > div:nth-of-type(3) > figure > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 10px;
+}
+main > .picture > div > div:nth-of-type(3) h3 {
+  margin: 10px 15px;
+}
+main > .picture > div > div:nth-of-type(3) h3:hover {
+  color: orange;
+}
+main > .picture > div > div:nth-of-type(3) p {
+  margin: 10px 15px;
+}
+main > .picture > div > div:nth-of-type(3) p:hover {
+  color: orange;
+}
+main > .picture > div > div:nth-of-type(3) > article {
+  width: 100%;
+  height: 20px;
+  margin-top: 20px;
+}
+main > .picture > div > div:nth-of-type(3) > article > span {
+  padding: 0 10px;
+}
+main > .picture > div > div:nth-of-type(3) > ul {
+  width: 80%;
+  height: 40px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+main > .picture > div > div:nth-of-type(3) > ul:hover > li {
+  background-color: orange;
+}
+main > .picture > div > div:nth-of-type(3) > ul > li {
+  border: 1px solid rgba(128, 128, 128, 0.295);
+  width: 40%;
+  height: 90%;
+  border-radius: 50px;
+  background-color: rgba(128, 128, 128, 0.075);
+}
+main > .picture > div > div:nth-of-type(3) > ul > li:hover {
+  background-color: orange;
+}
+main > .picture > div > div:nth-of-type(3) > ul > li > a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  color: black;
+  padding: 8px 5px;
+  text-decoration: none;
+}
+main > .drop {
+  width: 100%;
+  height: 800px;
+  display: flex;
+}
+main > .drop > div:nth-of-type(1) {
+  height: 100%;
+  width: 60%;
+}
+main > .drop > div:nth-of-type(1) > h2 {
+  padding-top: 50px;
+  padding-right: 100px;
+}
+main > .drop > div:nth-of-type(1) > div {
+  width: 100%;
+  height: 80px;
+  margin-top: 20px;
+  display: flex;
+}
+main > .drop > div:nth-of-type(1) > div > div:nth-of-type(1) {
+  width: 20%;
+  height: 100%;
+}
+main > .drop > div:nth-of-type(1) > div > div:nth-of-type(1) > figure {
+  width: 50%;
+  height: 100%;
+  border-radius: 50%;
+  margin: 0 80px;
+}
+main > .drop > div:nth-of-type(1) > div > div:nth-of-type(1) > figure > img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(17, 17, 17);
+  background-size: cover;
+  border-radius: 50%;
+}
+main > .drop > div:nth-of-type(1) > div > div:nth-of-type(2) {
+  width: 80%;
+  height: 100%;
+}
+main > .drop > div:nth-of-type(1) > div > div:nth-of-type(2) > h3 {
+  padding: 5px 10px;
+  font-size: 25px;
+}
+main > .drop > div:nth-of-type(1) > p {
+  line-height: 25px;
+  padding-right: 100px;
+}
+main > .drop > div:nth-of-type(1) > p:nth-of-type(1) {
+  padding-top: 20px;
+}
+main > .drop > div:nth-of-type(2) {
+  height: 100%;
+  width: 40%;
+}
+main > .drop > div:nth-of-type(2) > div {
+  width: 70%;
+  height: 600px;
+  border: 2px solid rgb(15, 15, 15);
+  margin-top: 80px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+main > .drop > div:nth-of-type(2) > div > div:nth-of-type(1) {
+  width: 50%;
+  height: 50px;
+  border: 2px solid rgb(15, 15, 15);
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-top: -20px;
+  margin-right: 20px;
+  background-color: white;
+  box-shadow: 1px 2px 3px 4px gray;
+  border-radius: 15px;
+}
+main > .drop > div:nth-of-type(2) > div > p {
+  font-size: 20px;
+  color: rgba(128, 128, 128, 0.74);
+  padding-top: 20px;
+  padding-right: 20px;
+}
+main > .drop > div:nth-of-type(2) > div > textarea {
+  margin-right: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+main > .drop > div:nth-of-type(2) > div > textarea::-moz-placeholder {
+  padding: 10px;
+}
+main > .drop > div:nth-of-type(2) > div > textarea::placeholder {
+  padding: 10px;
+}
+main > .drop > div:nth-of-type(2) > div > div:nth-of-type(2) {
+  width: 85%;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+main > .drop > div:nth-of-type(2) > div > input:nth-of-type(1),
+main > .drop > div:nth-of-type(2) > div > input:nth-of-type(2) {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+main > .drop > div:nth-of-type(2) > div > aside {
+  width: 87%;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+  font-size: 25px;
+  padding-right: 100px;
+  padding-top: 10px;
+  background-color: rgba(0, 0, 0, 0.87);
+  color: white;
+}
+main > .finish {
+  width: 100%;
+  height: 700px;
+  margin-top: 100px;
+}
+main > .finish > div:nth-of-type(1) {
+  width: 100%;
+  height: 200px;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+main > .finish > div:nth-of-type(1) > div:nth-of-type(1) {
+  width: 60%;
+  height: 100%;
+}
+main > .finish > div:nth-of-type(1) > div:nth-of-type(1) > h1,
+main > .finish > div:nth-of-type(1) > div:nth-of-type(1) > h2 {
+  line-height: 50px;
+  padding-top: 20px;
+  padding-right: 90px;
+}
+main > .finish > div:nth-of-type(1) > div:nth-of-type(1) > h1 {
+  font-size: 50px;
+}
+main > .finish > div:nth-of-type(1) > div:nth-of-type(1) > h2 {
+  font-size: 22px;
+}
+main > .finish > div:nth-of-type(1) > div:nth-of-type(2) {
+  width: 40%;
+  height: 100%;
+}
+main > .finish > div:nth-of-type(1) > div:nth-of-type(2) > h2 {
+  line-height: 50px;
+  padding-top: 20px;
+  padding-right: 200px;
+  font-size: 30px;
+}
+main > .finish > div:nth-of-type(2) {
+  width: 100%;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.74);
+  color: white;
+  display: flex;
+  line-height: 40px;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(1) {
+  width: 20%;
+  height: 100%;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(1) > h3 {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(1) > h6 {
+  font-size: 15px;
+  padding-right: 50px;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(2) {
+  width: 20%;
+  height: 100%;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(2) > h3 {
+  font-size: 25px;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(2) > h6 {
+  font-size: 15px;
+  padding-right: 50px;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(3) {
+  width: 20%;
+  height: 100%;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(3) > h3 {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(3) > h6 {
+  font-size: 15px;
+  padding-right: 50px;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(4) {
+  width: 20%;
+  height: 100%;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(4) > h3 {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-right: 50px;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(4) > h6 {
+  font-size: 15px;
+  padding-right: 50px;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(4) i {
+  padding-right: 50px;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(4) > p {
+  padding-right: 50px;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(5) {
+  width: 20%;
+  height: 100%;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(5) i {
+  padding-right: 50px;
+}
+main > .finish > div:nth-of-type(2) > div:nth-of-type(5) > div {
+  width: 80%;
+  height: 50px;
+  margin-top: 150px;
+  margin-right: 30px;
+}
+main > .finish > div:nth-of-type(3) {
+  width: 100%;
+  height: 250px;
+  border-top: 2px solid rgba(128, 128, 128, 0.281);
+  background-color: rgba(0, 0, 0, 0.74);
+  display: flex;
+  color: white;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(1) {
+  width: 50%;
+  height: 100%;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(1) > figure {
+  width: 30%;
+  height: 30%;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(1) > figure > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(1) > p {
+  font-size: 20px;
+  line-height: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) {
+  width: 20%;
+  height: 100%;
+  margin-right: 30px;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > figure {
+  width: 100%;
+  height: 50%;
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.623);
+  border-radius: 20px;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > figure:hover {
+  background-color: rgba(60, 60, 253, 0.116);
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(1) > figure > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) {
+  width: 20%;
+  height: 100%;
+  margin-right: 30px;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > figure {
+  width: 100%;
+  height: 50%;
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.623);
+  border-radius: 20px;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > figure:hover {
+  background-color: rgba(60, 60, 253, 0.116);
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(2) > figure > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(3) {
+  width: 20%;
+  height: 100%;
+  margin-right: 30px;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(3) > figure {
+  width: 100%;
+  height: 50%;
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.623);
+  border-radius: 20px;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(3) > figure:hover {
+  background-color: rgba(60, 253, 173, 0.123);
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(3) > figure > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(4) {
+  width: 20%;
+  margin-right: 30px;
+  height: 100%;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(4) > figure {
+  width: 100%;
+  height: 50%;
+  margin-top: 80px;
+  background-color: rgba(0, 0, 0, 0.623);
+  border-radius: 20px;
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(4) > figure:hover {
+  background-color: rgba(60, 60, 253, 0.116);
+}
+main > .finish > div:nth-of-type(3) > div:nth-of-type(2) > div:nth-of-type(4) > figure > img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+main > .finish > div:nth-of-type(4) {
+  border-top: 2px solid rgba(128, 128, 128, 0.281);
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.74);
+}
+main > .finish > div:nth-of-type(4) > p {
+  font-size: 20px;
+  text-align: center;
+  color: rgba(128, 128, 128, 0.582);
+  padding-top: 10px;
+}
+main > .finish > div:nth-of-type(4) > p > span {
+  color: white;
+}/*# sourceMappingURL=master.css.map */
